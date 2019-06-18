@@ -8,7 +8,7 @@ const base = path.resolve('static'); //  just relative path to absolute path
 
 var options = {base: `file://${base}`, format: 'letter' };
 
-pdf.create(html, options).toFile('./files.pdf', function(err, res) {
+pdf.create(html, options).toFile('./po10.pdf', function(err, res) {
  if (err) return console.log(err);
  console.log(res); // { filename: '/app/businesscard.pdf' }
 });
