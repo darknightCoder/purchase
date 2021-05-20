@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "html-pdf": "2.1.0"
+    "html-pdf": "3.0.1"
   }
 }
